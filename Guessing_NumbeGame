@@ -1,0 +1,14 @@
+import random
+randomnumber=random.randrange(1,100)
+usernumber=int(input("enter the number in range(0-100)"))
+if usernumber<randomnumber:
+    print("computer number", randomnumber)
+    print("your guess number is low")
+elif usernumber>randomnumber:
+    print("computer number", randomnumber)
+    print("your guess number is high")
+else:
+    print("computer number", randomnumber)
+    print("Accurate")
+    print("You Won The Match")
+
